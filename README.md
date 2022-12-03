@@ -3,7 +3,7 @@
 
 ### Repositório para o projeto da disciplina B122 
 
-### 1-Clonando o repositório:
+### 1-Clone o repositório:
 
 ```
 git clone https://github.com/isadorabello/ProjetoB122.git
