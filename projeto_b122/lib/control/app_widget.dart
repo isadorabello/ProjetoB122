@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:projeto_b122/view/dige_page.dart';
+import 'package:projeto_b122/view/endo_page.dart';
 import 'package:projeto_b122/view/home_page.dart';
 
 import 'app_control.dart';
@@ -21,6 +23,12 @@ class AppWidget extends StatelessWidget {
                 : Brightness.light,
             primarySwatch: Colors.indigo,
           ),
+          initialRoute: "/home",
+          routes: {
+            "/home": (context) => const HomePage(),
+            "/endo": (context) => const Endocrino(),
+            "/dige": (context) => const Digestorio()
+          },
         );
       },
     );

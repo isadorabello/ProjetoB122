@@ -65,17 +65,9 @@ class _HomePageState extends State<HomePage> {
                     if (escolha.toLowerCase() == 'endócrino') {
                       // ignore: avoid_print
                       // print(escolha);
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => const Endocrino()),
-                      );
+                      Navigator.of(context).pushNamed("/endo");
                     } else if (escolha.toLowerCase() == 'digestório') {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => const Digestorio()),
-                      );
+                      Navigator.of(context).pushNamed("/dige");
                     } else {
                       // configura o button
                       Widget okButton = FlatButton(
