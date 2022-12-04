@@ -33,6 +33,13 @@ class _HomePageState extends State<HomePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              SizedBox(
+                width: 200, //<--
+                height: 200, //<--
+                child: Image.network(
+                    "https://icones.pro/wp-content/uploads/2021/06/icone-sante-rouge.png"),
+              ),
+              const SizedBox(height: 50),
               const Center(
                 child: Text.rich(
                   TextSpan(
