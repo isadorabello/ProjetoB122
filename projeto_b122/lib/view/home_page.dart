@@ -1,8 +1,6 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, deprecated_member_use
 
 import 'package:flutter/material.dart';
-import 'package:projeto_b122/view/dige_page.dart';
-import 'package:projeto_b122/view/endo_page.dart';
 
 import '../control/custom_switch.dart';
 
