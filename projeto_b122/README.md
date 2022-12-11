@@ -1,16 +1,35 @@
-# projeto_b122
+# Projeto C214
 
-A new Flutter project.
 
-## Getting Started
+### Repositório para o projeto da disciplina C214 
 
-This project is a starting point for a Flutter application.
+### 1-Clone o repositório:
 
-A few resources to get you started if this is your first Flutter project:
+```
+git clone https://github.com/isadorabello/ProjetoLabC214.git
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 2-Abra a pasta
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+cd projeto_c214
+```
+
+### 3-Abra no VS Code
+```
+code .
+```
+
+### 4-Baixe as dependências
+```
+flutter pub get
+```
+
+### 5-Rode a aplicação
+```
+flutter run
+```
+ou
+```
+ctrl + shift + P -> Selecione um aparelho para a emulação -> Executar -> Executar sem Depuração
+```
