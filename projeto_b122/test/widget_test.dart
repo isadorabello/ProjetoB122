@@ -29,5 +29,9 @@ void main() {
     test('Testando algo aleatorio', () {
       expect(2, 1 + 1);
     });
+
+    test('Testando algo aleatorio', () {
+      expect(2, 1 + 1);
+    });
   });
 }
