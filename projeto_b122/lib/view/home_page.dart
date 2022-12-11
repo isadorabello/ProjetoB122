@@ -45,7 +45,7 @@ class _HomePageState extends State<HomePage> {
                         'Atualmente, é comum que pessoas das mais variáveis idades tenham '
                         'algum tipo de problema de sáude, seja nas questões endócrinas ou digestórias.'
                         ' Mas você sabe quais as recomendações do que evitar caso possua um dos '
-                        'dois? Se a resposta é não, chegou a hora de descobrir. Confere ai!',
+                        'dois? Se a resposta é não, chegou a hora de descobrir. Confere ai! aaaaaaaaaaaaaa',
                     style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                   ),
                   textAlign: TextAlign.center,
